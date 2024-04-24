@@ -7,7 +7,7 @@ import { Checkbox, Radio } from "antd";
 import { Prices } from "../components/Prices";
 import toast from "react-hot-toast";
 import { useCart } from "../context/cart";
-import { AiOutlineReload } from "react-icons";
+import { AiOutlineReload } from "react-icons/ai";
 import "../styles/HomePage.css";
 
 
