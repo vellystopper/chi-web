@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
 import { useAuth } from "../../context/auth";
-import { BiSolidShoppingBags } from "react-icons/bi";
+// import { BiSolidShoppingBags } from "react-icons/bi";
 import toast from "react-hot-toast";
 import SearchInput from "../form/SearchInput";
 import useCategory from "../../hooks/useCategory";
@@ -38,7 +38,7 @@ const Header = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
             <Link to="/" className="navbar-brand">
-              <BiSolidShoppingBags /> CHI
+              CHI
             </Link>
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <SearchInput />
