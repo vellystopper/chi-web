@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import Layout from '../components/Layout/Layout'
-import { BiMailSend, BiPhoneCall, BiSupport } from "react-icons/bi";
+// import { BiMailSend, BiPhoneCall, BiSupport } from "react-icons/bi";
 
 const Contact = () => {
   return (
@@ -23,13 +23,12 @@ const Contact = () => {
             available
           </p>
           <p className="mt-3">
-            <BiMailSend /> : www.help@chiclothing.com
+            E-mail us : www.help@chiclothing.com
+          </p>
+          <p className="mt-3"> Call us: 070 32415647 
           </p>
           <p className="mt-3">
-            <BiPhoneCall /> : 070 32415647 
-          </p>
-          <p className="mt-3">
-            <BiSupport /> : 1800-0000-0000 (toll free)
+             : 1800-0000-0000 (toll free)
           </p>
         </div>
       </div>
